@@ -3,20 +3,20 @@
 
 int main(){
 
-           int f1,f2,rem,i;
+           int a,b,c,i;
 
           printf("   Give the First number for the Range :   \n");
-           scanf("%d",&f1);
+           scanf("%d",&a);
            
            printf("   Give the Final number for the Range :   \n");
-           scanf("%d",&f2);
+           scanf("%d",&b);
            
-          printf("\n The Even numbers between %d and %d are ",f1,f2); 
-           for(i=f1; i<=f2; ++i){
+          printf("\n The Even numbers between %d and %d are ",a,b); 
+           for(i=a; i<=b; ++i){
 
-               rem = i % 2;
+               c = i % 2;
 
-               if(rem == 0)
+               if(c == 0)
 
                printf("\n  %d",i);
 
